@@ -1,0 +1,21 @@
+table.basic-info-table th,
+table.basic-info-table td {
+  border: none;
+}
+
+table.basic-info-table th[colspan] {
+  padding-top: 16px;
+  padding-bottom: 8px;
+}
+
+table.basic-info-table th:not([colspan]),
+table.basic-info-table td {
+  font-size: 90%;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  vertical-align: middle;
+}
+
+table.basic-info-table td:nth-child(2) {
+  text-align: right;
+}

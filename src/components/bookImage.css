@@ -1,0 +1,5 @@
+img.book-image {
+  cursor: zoom-in;
+  max-width: min(270px, 100%);
+  margin: 6px 0;
+}

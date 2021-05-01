@@ -1,0 +1,43 @@
+body {
+  font-family: Roboto, "Source Han Sans K", "Noto Sans CJK KR", sans-serif,
+    sans-serif, HanaMin, sans-serif;
+  font-language-override: "KOR";
+}
+
+input,
+textarea {
+  font-language-override: "KOR";
+}
+
+h4 {
+  margin-top: 0.6em;
+}
+
+.padding-vertical {
+  padding: 1em 0;
+}
+
+input[type="button"].tab {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid transparent;
+  padding: 0.5em 2em;
+}
+
+input[type="button"].tab:focus {
+  outline: none;
+}
+
+input[type="button"].tab:hover {
+  background-color: #eee;
+  border-bottom: 2px solid rgb(40, 167, 69);
+}
+
+input[type="button"].tab.tab-selected {
+  border-bottom: 2px solid rgb(40, 167, 69);
+}
+
+.paragraph-condensed p {
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+}
